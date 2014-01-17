@@ -1,0 +1,71 @@
+Memory statistics
+---------------------------------------------------
+Cardinality:0 || Bytes used: s1:693, s2:11, s3:11, skmerge:11, akHLL:11
+Cardinality:50 || Bytes used: s1:693, s2:107, s3:124, skmerge:107, akHLL:411
+Cardinality:100 || Bytes used: s1:693, s2:197, s3:222, skmerge:197, akHLL:191
+Cardinality:150 || Bytes used: s1:693, s2:283, s3:317, skmerge:283, akHLL:272
+Cardinality:200 || Bytes used: s1:693, s2:366, s3:417, skmerge:366, akHLL:352
+Cardinality:250 || Bytes used: s1:693, s2:444, s3:519, skmerge:444, akHLL:435
+Cardinality:300 || Bytes used: s1:693, s2:522, s3:610, skmerge:522, akHLL:643
+Cardinality:350 || Bytes used: s1:693, s2:591, s3:714, skmerge:591, akHLL:643
+Cardinality:400 || Bytes used: s1:693, s2:651, s3:804, skmerge:651, akHLL:643
+Cardinality:450 || Bytes used: s1:693, s2:704, s3:894, skmerge:704, akHLL:643
+Cardinality:500 || Bytes used: s1:693, s2:765, s3:989, skmerge:765, akHLL:643
+Cardinality:550 || Bytes used: s1:693, s2:810, s3:1076, skmerge:810, akHLL:643
+Cardinality:600 || Bytes used: s1:693, s2:850, s3:1157, skmerge:850, akHLL:643
+Cardinality:650 || Bytes used: s1:693, s2:892, s3:1246, skmerge:893, akHLL:643
+Cardinality:700 || Bytes used: s1:693, s2:945, s3:1338, skmerge:946, akHLL:643
+Cardinality:750 || Bytes used: s1:693, s2:982, s3:1423, skmerge:983, akHLL:643
+Cardinality:800 || Bytes used: s1:693, s2:1014, s3:1504, skmerge:1014, akHLL:643
+Cardinality:850 || Bytes used: s1:693, s2:1062, s3:693, skmerge:1062, akHLL:643
+Cardinality:900 || Bytes used: s1:693, s2:1089, s3:693, skmerge:1089, akHLL:643
+Cardinality:950 || Bytes used: s1:693, s2:1112, s3:693, skmerge:1112, akHLL:643
+Cardinality:1000 || Bytes used: s1:693, s2:1139, s3:693, skmerge:1139, akHLL:643
+Cardinality:1050 || Bytes used: s1:693, s2:1175, s3:693, skmerge:1175, akHLL:643
+Cardinality:1100 || Bytes used: s1:693, s2:1197, s3:693, skmerge:1197, akHLL:643
+Cardinality:1150 || Bytes used: s1:693, s2:1216, s3:693, skmerge:1215, akHLL:643
+
+
+ Comparison of sizeof() and getBytes.length() from stream-lib hll
+ ---------------------------------------------------
+ Cardinality:1 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():14 hllPlusBytes:684
+ Cardinality:101 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():224 hllPlusBytes:684
+ Cardinality:201 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():419 hllPlusBytes:684
+ Cardinality:301 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():612 hllPlusBytes:684
+ Cardinality:401 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():806 hllPlusBytes:684
+ Cardinality:501 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():991 hllPlusBytes:684
+ Cardinality:601 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():1159 hllPlusBytes:684
+ Cardinality:701 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():1340 hllPlusBytes:684
+ Cardinality:801 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():1506 hllPlusBytes:684
+ Cardinality:901 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1001 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1101 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1201 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1301 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1401 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1501 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1601 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1701 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1801 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+ Cardinality:1901 hllBytes:692 hll-sizeof(): 684 hllPlus-sizeof():693 hllPlusBytes:684
+
+ Sketch Insertion Stats:
+ ---------------------------------------------------
+ Cardinality:10 Average Error (%):1.0, 0.0, 0.0 Average Time (ms): 0.011455030000000001, 0.007705149999999999, 0.049350910000000005 Average Card: 9.9, 10.0, 10.0
+ Cardinality:50 Average Error (%):1.2, 0.0, 0.0 Average Time (ms): 0.008682966, 0.0060398199999999996, 0.031467804 Average Card: 49.4, 50.0, 50.0
+ Cardinality:250 Average Error (%):1.3599999999999999, 0.0, 0.0 Average Time (ms): 0.0053171268, 0.004489201600000001, 0.013716762000000002 Average Card: 249.0, 250.0, 250.0
+ Cardinality:1250 Average Error (%):2.144, 2.424, 2.424 Average Time (ms): 7.4082688E-4, 5.9594352E-4, 0.003918669840000001 Average Card: 1258.4, 1252.3, 1252.3
+ Cardinality:6250 Average Error (%):2.152, 3.3472, 3.3472 Average Time (ms): 2.13803856E-4, 2.31751392E-4, 4.16008096E-4 Average Card: 6249.9, 6335.0, 6335.0
+ Cardinality:31250 Average Error (%):1.67744, 2.01152, 2.01152 Average Time (ms): 1.520018592E-4, 1.4724360639999998E-4, 2.662251712E-4 Average Card: 31344.2, 31240.8, 31240.8
+ Cardinality:156250 Average Error (%):2.4529919999999996, 3.032768, 3.032768 Average Time (ms): 1.3650177728E-4, 1.286304864E-4, 2.3961184832E-4 Average Card: 154252.6, 157446.3, 157446.3
+ Cardinality:781250 Average Error (%):3.6391040000000006, 2.8479232, 2.8479232 Average Time (ms): 1.37976855296E-4, 1.2886083379200003E-4, 2.41433548672E-4 Average Card: 791279.9, 772692.8, 772692.8
+ Cardinality:3906250 Average Error (%):2.3170790400000003, 2.4130252800000003, 2.4130252800000003 Average Time (ms): 1.314250618624E-4, 1.2254588244479998E-4, 2.3026023738880003E-4 Average Card: 3934742.5, 3824962.0, 3824962.0
+
+ Sketch Merging Stats:
+ ---------------------------------------------------
+ 0.1 110000 EstimatedCard:116387, 111522, 108327    Times (ms):0.096461, 0.096052, 0.113206    Error (%):5.806363636363637, 1.3836363636363636, 1.520909090909091   Bytes:684, 684, 643
+ 0.2 110000 EstimatedCard:111603, 111966, 105882    Times (ms):0.089017, 0.083289, 0.103883    Error (%):1.4572727272727273, 1.7872727272727273, 3.7436363636363637   Bytes:684, 684, 643
+ 0.30000000000000004 110000 EstimatedCard:114416, 110374, 114351    Times (ms):0.107479, 0.094579, 0.104589    Error (%):4.014545454545455, 0.34, 3.9554545454545456   Bytes:684, 684, 643
+ 0.4 110000 EstimatedCard:111996, 110028, 107047    Times (ms):0.017854, 0.011347, 0.132202    Error (%):1.8145454545454545, 0.025454545454545455, 2.6845454545454546   Bytes:684, 684, 643
+ 0.5 110000 EstimatedCard:105832, 109307, 105841    Times (ms):0.019076, 0.011834, 0.10636    Error (%):3.789090909090909, 0.63, 3.7809090909090908   Bytes:684, 684, 643
+
